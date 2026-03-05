@@ -1,0 +1,46 @@
+/* ── Google Fonts — @import must be first ── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ── Apple SF Pro — loaded via local() on Apple devices ── */
+/* SF Pro Display (large text >= 20pt) */
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display"), local(".SFNSDisplay-Regular"), local("SFProDisplay-Regular");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display Italic"), local(".SFNSDisplay-Italic"), local("SFProDisplay-RegularItalic");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SF Pro Text (body text < 20pt) */
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text"), local(".SFNSText-Regular"), local("SFProText-Regular");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Italic"), local(".SFNSText-Italic"), local("SFProText-RegularItalic");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SF Mono */
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono"), local(".SFNSMono-Regular"), local("SFMono-Regular");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
