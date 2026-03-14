@@ -1,0 +1,12 @@
+# Decisions Log — Essyn Studio
+
+> Append-only. Toda decisão significativa registrada aqui.
+
+---
+
+## 2026-03-13 | Fleet Protocol v2 Instalado
+- **Contexto:** Instalação do sistema multiagente Fleet Protocol v2 no projeto
+- **Decisão:** Adotar Fleet Protocol com melhorias baseadas em análise do Synkra AIOX
+- **Features adotadas:** Constitution (L0), Context Layers, Checklists formais, Self-critique, Squads
+- **Agente:** Setup manual
+- **Rationale:** Estruturar desenvolvimento com agentes especializados, validação formal e decisões auditáveis

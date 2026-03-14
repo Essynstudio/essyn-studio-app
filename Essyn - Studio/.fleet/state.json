@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-03-13",
+  "project": "Essyn Studio",
+  "url": "https://app.essyn.studio",
+  "status": "EM PRODUCAO",
+  "currentSprint": {
+    "name": "Melhorias contínuas + Fleet Protocol",
+    "startDate": "2026-03-13",
+    "tasks": []
+  },
+  "agents": {
+    "active": [],
+    "idle": ["lead", "builder-backend", "builder-frontend", "architect", "scout", "tester", "canary", "reviewer-security", "reviewer-performance", "reviewer-simplicity"]
+  },
+  "completed": [
+    "Auth completo (login, signup, reset, termos, privacidade, callback)",
+    "Maia IA REAL (Claude Haiku 4.5, 16 tools, alertas proativos)",
+    "Wizard projeto 9 steps",
+    "Project Drawer 6 tabs, Client Drawer, Drawer Provider",
+    "Dashboard editorial com KPIs e FinancialHero",
+    "22 módulos completos (Projetos, CRM, Financeiro, Clientes, Produção, Agenda, Galeria, Contratos, Pedidos, Notificações, Time, WhatsApp, Email Templates, Automações, Relatórios, Integrações, Armazenamento, Portal Cliente, Config)",
+    "Cmd+K search (7 entidades + 12 actions)",
+    "Auditoria visual completa: 0 cores hardcoded",
+    "DB: 20+ tabelas, migrations v1-v9, RLS, triggers, storage",
+    "Portal do Cliente Sprint 1 COMPLETO (magic link, galeria, contrato, pagamentos, galeria pública)",
+    "Deploy ativo: app.essyn.studio"
+  ],
+  "backlog": [
+    "Upload fotos/contratos (UI → Supabase Storage)",
+    "Tabs avançadas galeria (branding, analytics, sharing)",
+    "Portal Sprint 2 (seleção fotos, comentários, notificações)",
+    "Portal Sprint 3 (assinatura digital, pagamento online)",
+    "Pagamentos real (Stripe/Asaas)",
+    "WhatsApp/Automações/Relatórios/Integrações reais",
+    "Brand gold (aplicar identidade unificada)",
+    "Preços dos planos"
+  ]
+}
