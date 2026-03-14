@@ -40,3 +40,12 @@ Execute `.fleet/playbooks/session-start.md` automaticamente.
 1. Atualize `.fleet/state.json`
 2. Registre decisões em `.fleet/decisions.log`
 3. Escreva aprendizados em `.fleet/memory/`
+
+
+## Auto-Sync ao encerrar sessão
+
+Quando o usuário indicar fim de sessão ("valeu", "tchau", "bye", "flw", "até mais", "/exit"):
+1. Salve estado em .fleet/state.json
+2. Registre aprendizados em .fleet/memory/ se relevante
+3. Execute no terminal: git add -A && git commit -m "auto-sync sessão" && git push
+4. Confirme: "Sessão salva e sincronizada!"
