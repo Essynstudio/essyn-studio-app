@@ -1,0 +1,28 @@
+.env*.local
+.env.production
+.env
+
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+.open-next/
+out/
+
+# Dev vars
+.dev.vars
+
+# Wrangler cache
+.wrangler/
+
+# OS
+.DS_Store
+node_modules/
+.env.production.clean
+.env.vercel
+supabase/.temp/
+
+# Claude Code — contém credenciais, não commitar
+CLAUDE.md
+WORKING.md

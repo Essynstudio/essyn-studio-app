@@ -1,0 +1,22 @@
+{
+  "name": "essyn-studio",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "main": ".open-next/worker.js",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    {
+      "pattern": "app.essyn.studio/*",
+      "zone_name": "essyn.studio"
+    }
+  ],
+  "find_additional_modules": true,
+  "triggers": {
+    // Roda todo dia à meia-noite UTC — renova webhooks do Google Calendar antes de expirarem
+    "crons": ["0 0 * * *"]
+  }
+}

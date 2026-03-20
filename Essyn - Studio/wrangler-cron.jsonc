@@ -1,0 +1,13 @@
+{
+  // Essyn Studio — Cron Worker (separado do app principal)
+  // Deploy: npx wrangler deploy --config wrangler-cron.jsonc
+  // Secrets: npx wrangler secret put CRON_SECRET --config wrangler-cron.jsonc
+  "name": "essyn-cron",
+  "main": "_scheduled.ts",
+  "compatibility_date": "2025-04-01",
+  "workers_dev": false,
+  "triggers": {
+    // 12:00 UTC = 09:00 Brasília (BRT, UTC-3)
+    "crons": ["0 12 * * *"]
+  }
+}

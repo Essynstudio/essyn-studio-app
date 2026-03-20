@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /></head>
+<body style="margin:0;padding:0;background-color:#F0EDEA;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background-color:#F0EDEA;padding:48px 16px;">
+<tr><td align="center">
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:540px;background-color:#FFFFFF;border-radius:20px;overflow:hidden;box-shadow:0 2px 16px rgba(12,16,14,0.06);">
+
+<!-- ── Header — Editorial Teal ── -->
+<tr><td style="background-color:#2C444D;padding:44px 48px 40px;text-align:center;">
+  <!-- ES Monogram -->
+  <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:24px;">
+    <tr><td style="width:48px;height:48px;border-radius:50%;border:2px solid rgba(194,173,144,0.4);text-align:center;vertical-align:middle;line-height:48px;">
+      <span style="font-family:Georgia,'Times New Roman',serif;font-size:15px;color:#C2AD90;letter-spacing:1px;">ES</span>
+    </td></tr>
+  </table>
+  <!-- Brand name -->
+  <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:28px;">
+    <tr>
+      <td><span style="font-family:Georgia,'Times New Roman',serif;font-size:12px;font-weight:600;color:rgba(255,255,255,0.7);letter-spacing:3px;">ESSYN</span></td>
+      <td style="padding:0 5px;"><span style="font-size:7px;color:#C2AD90;">&middot;</span></td>
+      <td><span style="font-family:Georgia,'Times New Roman',serif;font-size:10px;font-weight:300;color:rgba(255,255,255,0.35);letter-spacing:3px;">STUDIO</span></td>
+    </tr>
+  </table>
+  <!-- Diamond + line accent -->
+  <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:24px;">
+    <tr>
+      <td style="width:28px;height:1px;background-color:rgba(194,173,144,0.2);">&nbsp;</td>
+      <td style="padding:0 8px;"><div style="width:5px;height:5px;background-color:rgba(194,173,144,0.35);transform:rotate(45deg);-webkit-transform:rotate(45deg);"></div></td>
+      <td style="width:28px;height:1px;background-color:rgba(194,173,144,0.2);">&nbsp;</td>
+    </tr>
+  </table>
+  <!-- Title -->
+  <h1 style="margin:0 0 6px;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:400;color:#FFFFFF;letter-spacing:-0.3px;">
+    Bem-vindo ao Essyn
+  </h1>
+  <p style="margin:0;font-size:13px;color:rgba(255,255,255,0.35);font-weight:300;letter-spacing:0.02em;">
+    Falta so um clique para comecar.
+  </p>
+</td></tr>
+
+<!-- ── Body ── -->
+<tr><td style="padding:40px 48px 36px;">
+  <p style="margin:0 0 28px;font-size:15px;color:#6B7B80;line-height:1.7;text-align:center;">
+    Confirme seu email para ativar sua conta e comecar a gerenciar seu estudio com inteligencia.
+  </p>
+
+  <!-- CTA Button -->
+  <table cellpadding="0" cellspacing="0" align="center" style="margin:0 0 36px;">
+    <tr><td style="background-color:#2C444D;border-radius:14px;box-shadow:0 2px 8px rgba(44,68,77,0.2);">
+      <a href="{{ .ConfirmationURL }}" style="display:inline-block;padding:16px 44px;font-size:15px;font-weight:600;color:#FFFFFF;text-decoration:none;letter-spacing:0.02em;">
+        Confirmar email
+      </a>
+    </td></tr>
+  </table>
+
+  <!-- What you get -->
+  <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 28px;">
+    <tr><td style="background-color:#F7F5F3;border-radius:14px;padding:24px;">
+      <p style="margin:0 0 14px;font-size:11px;color:#A58D66;letter-spacing:0.1em;font-weight:600;text-transform:uppercase;">
+        O que te espera
+      </p>
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="padding:6px 0;font-size:13px;color:#4A5A5F;line-height:1.5;">
+            <span style="color:#C2AD90;margin-right:8px;">&#9670;</span> Iris IA — assistente inteligente
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px 0;font-size:13px;color:#4A5A5F;line-height:1.5;">
+            <span style="color:#C2AD90;margin-right:8px;">&#9670;</span> Gestao de projetos e clientes
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px 0;font-size:13px;color:#4A5A5F;line-height:1.5;">
+            <span style="color:#C2AD90;margin-right:8px;">&#9670;</span> Portal do cliente e galerias
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:6px 0;font-size:13px;color:#4A5A5F;line-height:1.5;">
+            <span style="color:#C2AD90;margin-right:8px;">&#9670;</span> Financeiro e relatorios
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- Fallback link -->
+  <table width="100%" cellpadding="0" cellspacing="0">
+    <tr><td style="background-color:#F7F5F3;border-radius:12px;padding:16px 20px;">
+      <p style="margin:0 0 6px;font-size:12px;color:#8A9499;line-height:1.5;">Se o botao nao funcionar, copie e cole:</p>
+      <p style="margin:0;font-size:11px;color:#A58D66;word-break:break-all;line-height:1.5;">{{ .ConfirmationURL }}</p>
+    </td></tr>
+  </table>
+</td></tr>
+
+<!-- ── Footer ── -->
+<tr><td style="padding:0 48px;"><div style="border-top:1px solid #EBE8E4;"></div></td></tr>
+<tr><td style="padding:24px 48px 32px;text-align:center;">
+  <p style="margin:0 0 4px;font-size:11px;color:#8A9499;">Se voce nao criou uma conta no Essyn, ignore este email.</p>
+  <p style="margin:0;font-size:10px;color:#B5AFA6;letter-spacing:0.05em;">
+    &copy; 2026 ESSYN STUDIO &middot; Gestao inteligente para fotografos
+  </p>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body></html>
